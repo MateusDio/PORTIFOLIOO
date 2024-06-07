@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Cactus+Classical+Serif&family=Jaini&display=swap');
+body{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-family: "Cactus Classical Serif"   ;
+    
+  }
+
+nav a{
+    color: blue;
+    text-decoration: none;
+   
+    
+
+}
+p{
+    padding: 25% 2px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: #2b0b0b;
+    padding: 100px;
+    border: 1px solid #d31010;
+    margin: 10px;
+
+
+}
+h1{
+    background-color: #000000;
+    padding: 10px;
+    border: 1px solid #d31010;
+    margin: 10px;
+    font-family: 'Cactus Classical Serif';
+
+
+}
