@@ -5,6 +5,14 @@
     width: 150px;
     height: 150px;
     align-items: center;
+    border-radius: 15px;
+
+}
+footer{
+   align-items: center;
+   padding: 0% 460px;
+    justify-content: center;
+
 
 }
 
@@ -84,6 +92,7 @@ nav ul li a:hover {
     width: 750px;
     height: 400px;
 padding: 0% 270px;
+border-radius: 50000000px; 
 
 }
 
