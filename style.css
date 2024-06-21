@@ -10,11 +10,12 @@
 }
 footer{
    align-items: center;
-   padding: 0% 460px;
+   padding: 1% 350px;
     justify-content: center;
 
 
 }
+
 
 
 
@@ -53,7 +54,7 @@ header {
     text-align: center;
 }
 
-nav ul {
+header nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -67,6 +68,19 @@ nav ul li {
     display: inline;
 }
 
+#Jogo a{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px 10px;
+    list-style-type: none;
+    text-decoration: none;
+   
+}
+#Jogo a:hover{
+    background-color: #444;
+    
+    }
+
 nav ul li a {
     display: inline-block;
     color: white;
@@ -77,24 +91,33 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #111;
 }
+#Links nav ul{
+    background-color: #000000;
+    justify-content: left;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    }
 
 #Links img{
-    text-decoration: none;
-    list-style-type: none;
-    justify-content: space-between;
+  
     width: 150px;
     height: 150px;
-    
 
 }
 
-#imagem img{
-    width: 750px;
+
+#Banner {
+    position: relative;
+    background-image: url('img/programming.jpg');
     height: 400px;
-padding: 0% 270px;
-border-radius: 50000000px; 
-
+    padding: 0% 50%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: visible;
+    z-index: 1;
 }
+
 
 @media (max-width: 390px) and (max-width: 844px) {
     body {
